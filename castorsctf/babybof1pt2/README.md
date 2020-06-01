@@ -309,3 +309,4 @@ $ $
 Note: during the actual ctf, there was a weird buffering issue, so I had to run exploit_buf.py around 100 times to get a shell.  
 Towards the end of the ctf, the organizers fixed the buffering issue, so running exploit.py just once will now work.
 
+Also if you see any inaccuracies anywhere, feel free to [contact](mailto:jacobshin313@gmail.com) me!
