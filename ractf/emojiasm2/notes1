@@ -1,0 +1,26 @@
+Read from what is at Tn2 and output
+
+⏪🎥				Rewind tape
+➡️🎥👁️🎥 		    A <- one chr of tape2
+📦🔨      		    X <- A
+✉️😃😀    		    A <- 0x30
+➕🔨       		    A <- A + X
+📤 		            out <- chr(A)
+
+⏪🎥
+➡️🎥👁️🎥 
+📦🔨   
+✉️😃😀  
+➕🔨   
+📤 
+
+
+Read from what is at Tn2 and output (unmodified)
+
+⏪🎥				Rewind tape
+➡️🎥👁️🎥 		    A <- one chr of tape2
+📤 		            out <- chr(A)
+
+⏪🎥
+➡️🎥👁️🎥  
+📤 

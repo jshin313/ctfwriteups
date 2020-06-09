@@ -1,0 +1,20 @@
+Print out all the indexes from tape1
+
+
+✉️😀😏				A <- 0xf
+📦🔨     			X <- A
+✉️😀😀				A <- 0
+📦⛏️     			Y <- A
+
+➡️🎞️👁️🎞️ 		    A <- one chr of tape1
+📦🔨      		    X <- A
+✉️😃😀    		    A <- 0x30
+➕🔨       		    A <- A + X
+📤 		            out <- chr(A)
+
+
+💡⛏️				Y <- Y + 1
+🎁⛏️				A <- Y
+❓🔨     			flags ← cmp(X, A)
+🐇😀😀😁😉		RJMP <- value
+🏷️					{if flags.EQ not set} PC ← RJMP
